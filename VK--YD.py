@@ -184,7 +184,7 @@ if __name__ == '__main__':
             print('Вы ввели не число !!!')
 
     Ya_token = input('Введите яндекс токен :') # Запрос пользователя 
-    # Ya_token = 'y0_AgAAAABkuGpgAADLWwAAAADRmiQicuZXszXcTha7eRudxeA0jOx_8_Y'
+
    
     YANDEX = Yandex('Photos from Vk', Ya_token, num) # Создаем экземпляр класса Yandex
     YANDEX.uploading_photos(VK.export_dict)  # Вызываем функцию для копирования фотографий     
